@@ -101,7 +101,7 @@ int main() {
 
     // Week 3 and 4: Classes, Objects and Constructors
     BankAccount a("Ananya", 101, 5000);
-    BankAccount b("stephen", 102, 3000);
+    BankAccount b("Stephen", 102, 3000);
 
     // Week 2: Inline Function
     a.display();
