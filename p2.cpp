@@ -13,7 +13,7 @@ int main()
     bool pal=true;
     for(size_t i=0, j= s.size()-1; i<j; ++i, --j)
     if(s[i]!=s[j]){ pal=false; break;}
-    cout<<s<<(pal?"is ":"is not")<<" a palindrome\n";
+    cout<<s<<(pal?" is ":" is not")<<" a palindrome\n";
     size_t pos=s.find("an");
     if(pos!=string::npos)cout<<"'an'found at index"<<pos<<endl;
     else cout<<"'an' not found\n";
